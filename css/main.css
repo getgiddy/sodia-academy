@@ -4914,7 +4914,7 @@ figcaption {
 .white-text-big {
   pointer-events: auto;
   color: var(--tokens--text-inverse);
-  font-size: var(--_typrography---desktop--s-body-paragraph);
+  font-size: 1.8rem;
   line-height: var(--_typrography---line-height--lineheightsmall);
   text-transform: uppercase;
 }
@@ -5661,6 +5661,11 @@ figcaption {
     height: auto;
     padding-left: 0;
   }
+
+  .white-text-big {
+  font-size: var(--_typrography---desktop--s-body-paragraph);
+  }
+
 
   .nav-menu {
     background-color: var(--tokens--background-base);
