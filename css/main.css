@@ -227,6 +227,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
+  z-index: 6;
 }
 
 img {
@@ -294,7 +295,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+/* .w-webflow-badge, .w-webflow-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
@@ -342,9 +343,9 @@ pre.w-code-block code {
   word-spacing: unset;
   word-wrap: unset;
   transition: unset;
-}
+  } */
 
-.w-webflow-badge {
+/* .w-webflow-badge {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
@@ -366,15 +367,15 @@ pre.w-code-block code {
   position: fixed !important;
   inset: auto 12px 12px auto !important;
   transform: none !important;
-}
+  } */
 
-.w-webflow-badge > img {
+/* .w-webflow-badge > img {
   position: unset;
   visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
   display: inline-block !important;
-}
+  }*/
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
@@ -2109,10 +2110,10 @@ textarea.w-input, textarea.w-select {
   --_spacings---core--container-max-width: 1440px;
   --_spacings---core--container-paddings: var(--_spacings---tokens--space-xxl);
   --tokens--border-strong: #c5cbd2;
-  --tokens--primary: #2563eb;
+  --tokens--primary: #0f5daa;
   --tokens--text-inverse: #fff;
-  --tokens--accent: #2563eb33;
-  --tokens--text-primary: #0f172a;
+  --tokens--accent: #0f5daa33;
+  --tokens--text-primary: #071A2F;
   --tokens--surface: white;
   --_typrography---desktop--l-body-paragraph: 18px;
   --tokens--text-secondary: #475569;
@@ -2472,7 +2473,7 @@ figcaption {
 
 .button.link-button {
   color: var(--tokens--text-primary);
-  background-color: #2563eb00;
+  background-color: #0f5daa00;
   border-style: none;
   border-radius: 0;
   padding: 0;
@@ -5381,6 +5382,11 @@ figcaption {
   display: flex;
 }
 
+.admission.case-study-section{
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .case-study-left {
   flex-flow: column;
   justify-content: space-between;
@@ -5512,7 +5518,7 @@ figcaption {
 
 .overlay {
   z-index: 1;
-  background-image: linear-gradient(90deg, var(--tokens--primary) 85%, #2563eb00);
+  background-image: linear-gradient(90deg, var(--tokens--primary) 85%, #0f5daa00);
   opacity: 1;
   width: 150%;
   position: absolute;
@@ -6312,6 +6318,11 @@ figcaption {
     font-size: 40px;
   }
 
+  .home.big-title {
+    font-size: 24px;
+    margin: 1.5rem 0;
+  }
+
   .team-grid-holder {
     grid-template-columns: 1fr 1fr;
   }
@@ -6867,6 +6878,10 @@ figcaption {
     padding-top: 40px;
   }
 
+  .home.hero-holder {
+    padding-top: 2rem;
+  }
+
   .hero-image-holder {
     height: 450px;
   }
@@ -7031,6 +7046,10 @@ figcaption {
     padding-top: 70px;
     padding-left: 50px;
     padding-right: 0;
+  }
+
+  .about.proggess-text {
+    padding-top: 0;
   }
 
   .proggress-holder {
