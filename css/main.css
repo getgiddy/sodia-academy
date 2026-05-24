@@ -5001,10 +5001,8 @@ figcaption {
 .about-video {
   pointer-events: none;
   background-color: #0000000d;
-  /* background-image: linear-gradient(0deg, #1a312a66 14%, #1a312a00 60%); */
-  background-image: url(../images/about-hero.png);
+  background-image: linear-gradient(0deg, #1a312a66 14%, #1a312a00 60%);
   background-size: cover;
-  /* background-position: center; */
   position: absolute;
   inset: 0%;
 }
