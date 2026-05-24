@@ -4909,7 +4909,7 @@ figcaption {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   width: 100%;
   min-width: 100%;
@@ -5001,7 +5001,10 @@ figcaption {
 .about-video {
   pointer-events: none;
   background-color: #0000000d;
-  background-image: linear-gradient(0deg, #1a312a66 14%, #1a312a00 60%);
+  /* background-image: linear-gradient(0deg, #1a312a66 14%, #1a312a00 60%); */
+  background-image: url(../images/about-hero.png);
+  background-size: cover;
+  /* background-position: center; */
   position: absolute;
   inset: 0%;
 }
@@ -5657,13 +5660,17 @@ figcaption {
 
   .section.hero-home {
     height: auto;
-    padding-top: 5rem;
+    padding-top: 6rem;
   }
 
   .section.hero-program {
     height: auto;
     padding-top: 6rem;
   }
+
+  .tursted {
+    bottom: 4rem;
+}
 
   ._8-col-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6130,6 +6137,10 @@ figcaption {
     padding: 21px;
   }
 
+  .tursted {
+    bottom: 3.8rem;
+}
+
   .utility-page-wrap {
     padding: 31px;
   }
@@ -6504,6 +6515,10 @@ figcaption {
   .black-background-padding {
     padding: 7px;
   }
+
+  .tursted {
+    bottom: 4rem;
+}
 
   .container.navbar-container {
     width: 100%;
@@ -7042,7 +7057,7 @@ figcaption {
   }
 
   .about-hero-video-holder {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 
   .video-title-holder {
