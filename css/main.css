@@ -2407,7 +2407,7 @@ figcaption {
 }
 
 .container.hero-container {
-  height: 100%;
+  min-height: 80%;
 }
 
 .container._100-height {
@@ -6554,7 +6554,7 @@ figcaption {
   }
 
   .section.dark-section.extra-space {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
 
   ._8-col-grid {
